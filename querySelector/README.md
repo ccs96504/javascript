@@ -1,2 +1,37 @@
 querySelector 用法  
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>querySelector 用法</title>
+</head>
+
+<style>
+#para1 {
+  color: red;
+}
+</style>
+
+<body>    
+<div id="myDIV">
+  <p id="para1" >id 為 para1 的</p>
+  <p id ="t1">id 為 t1 的</p>
+</div>
+
+<div>
+    <button onclick="myFunction()">選擇 Selector(P) id='T1' 為 Hello World!</button>
+</div>
+<div>
+    <button onclick="myFunction1()">先找div=>id 為"myDIV" => 選擇 Selector(p) id='T1' 為 Hello World!</button>
+</div>
+<div>
+    <button onclick="myFunction2()">先找div=>id 為"myDIV" => 選擇 Selector(p) id='para1' 為 Hello World!</button>
+</div>
+<div>
+    <button onclick="myFunction3()">選擇 Selector(div) => 找第一個div 為 Hello World!</button>
+</div>
+
+  
+  
 element = document.querySelector(selectors);
