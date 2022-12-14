@@ -1,5 +1,6 @@
 querySelector 用法  
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,3 +36,4 @@ querySelector 用法
   
   
 element = document.querySelector(selectors);
+```
